@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "paths": {
+      "turbo_host/RemoteEntry": ["../../apps/host/src/App.tsx"],
+      "turbo_home/RemoteEntry": ["../../apps/home/src/RemoteEntry.tsx"],
+      "turbo_settings/RemoteEntry": ["../../apps/settings/src/RemoteEntry.tsx"]
+    }
+  }
+}
