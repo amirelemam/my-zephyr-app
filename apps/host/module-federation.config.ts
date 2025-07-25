@@ -8,10 +8,10 @@ export const mfConfig: ModuleFederationPluginOptions = {
   remotes: {
     turbo_home: isDev
       ? 'turbo_home@http://localhost:3001/remoteEntry.js'
-      : 'turbo_home@https://turbo-home.zephyr.run/remoteEntry.js',
+      : 'turbo_home@http://localhost:3001/remoteEntry.js',
     turbo_settings: isDev
       ? 'turbo_settings@http://localhost:3002/remoteEntry.js'
-      : 'turbo_settings@https://turbo-settings.zephyr.run/remoteEntry.js',
+      : 'turbo_settings@http://localhost:3002/remoteEntry.js',
   },
   exposes: {
     './RemoteEntry': './src/App.tsx',
