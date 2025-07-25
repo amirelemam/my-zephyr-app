@@ -6,7 +6,8 @@
     "check": "biome check --write",
     "dev": "turbo dev",
     "format": "biome format --write",
-    "lint": "turbo lint"
+    "lint": "turbo lint",
+    "deploy": "turbo build && turbo deploy"
   },
   "packageManager": "pnpm@10.6.3",
   "devDependencies": {
