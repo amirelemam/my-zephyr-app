@@ -11,7 +11,7 @@ export const mfConfig: ModuleFederationPluginOptions = {
   remotes: {
     turbo_host: isDev
       ? 'turbo_host@http://localhost:3000/remoteEntry.js'
-      : 'turbo_host@http://localhost:3000/remoteEntry.js',
+      : 'turbo_host@https://amir-elemam-5-turbo-host-my-zephyr-app-amirelemam-bbdc0ef0f-ze.zephyrcloud.app/remoteEntry.js',
   },
   shared: ['react', 'react-dom', 'react-router'],
 };
